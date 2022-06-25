@@ -1,0 +1,15 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li{
+    font-size: 20px;
+}
+ul li:nth-child(1){ /*Selecciona cualquier elemento que se pueda numerar*/
+  color: purple;
+}
+#enlace:link{
+  color: blue;
+}
+#enlace:visited{
+    color:purple;
+}

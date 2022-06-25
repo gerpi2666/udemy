@@ -1,0 +1,23 @@
+h1{
+    border:5px solid black;
+    background-color: tan;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+
+body{
+    background-image: url("img/fondo.jpg");
+    background-repeat: repeat;
+    background-size: 100% 100%;/**sirve para que la imagen de fondo llene el background*/
+    background-attachment: fixed; /*esto sirve para que cuando haces scroll el fondo no nos siga
+    */
+}
+#caja p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    text-align: justify;
+    border:5px solid black;
+    padding: 15px;
+}

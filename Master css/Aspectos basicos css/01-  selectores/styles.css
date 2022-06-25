@@ -1,0 +1,66 @@
+/* Selector uniersal*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Selector por etiqueta este usa el nombre de las etiquqetas*/
+h1{
+    background: red;
+    padding: 10px;
+    color: white;
+}
+a{
+    color: teal;
+    font-size: 20px;
+    text-decoration: none;
+}
+/* compuestos*/
+footer a{
+ color: teal;
+}
+/*selector por id*/
+#descripcion{
+    border: 5px solid black;
+    padding: 15px;
+    
+}
+/*selector de clases*/
+.parrafo{
+    font-style: italic;
+    
+}
+#user form {
+  border:5px solid teal;
+  margin-top:15px;
+  margin-bottom:15px;
+  padding: 20px;
+}
+#user form *{
+    display: block;
+}
+/*selector por atributo*/
+input[type="text"]{
+    margin-bottom:20px;
+    padding: 5px;
+    width:200px;
+}
+input[type="submit"]{
+    background: tomato;
+    padding:15px;
+    font-size: 20px;
+    cursor:pointer;
+}
+/*Selectore hijos*/
+#menu > li> a{
+    color:green;
+    font-size: 20px;
+    text-decoration: none;
+}
+/*Prioridad*/
+
+#saludo h1{
+    background: brown !important;/*este al ser mas especifico posee mayor prioridad y con el important mas aun*/
+}
+
+h1{
+    background: yellow;
+}
